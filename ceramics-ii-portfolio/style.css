@@ -1,0 +1,109 @@
+:root {
+
+    /* Color palette
+     * https://coolors.co/palette/0d1b2a-1b263b-415a77-778da9-e0e1dd
+     */
+    --darkest: #0D1B2A;
+    --dark: #1B263B;
+    --mid: #415A77;
+    --light: #778DA9;
+    --lightest: #E0E1DD;
+}
+
+body {
+    background-color: var(--darkest);
+    color: var(--lightest);
+}
+
+#title {
+    text-align: center;
+}
+
+#subtitle {
+    text-align: center;
+}
+
+.fancybox {
+	background-color: var(--dark);
+	width: 20em;
+	padding: 1em;
+    margin: 1em;
+	border-radius: 7px;
+    display: inline-block;
+}
+
+.fancybox-head {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.center {
+	width: fit-content;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.centered-text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-weight: bold;
+	text-shadow: black 0 0 10px;
+	font-size: 50px;
+}
+.heading {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.heading img {
+    width: 500px;
+    transition: 0.5s transform ease-in-out;
+}
+
+.heading:hover img {
+    transform: scale(120%);
+}
+
+.heading:active .centered-text {
+    transform: translate(-50%, calc(-50% + 2px));
+}
+
+.pull-out {
+    margin: auto auto 20px;
+    /* padding: 20px; */
+    border-radius: 10px;
+    width: max(500px, 90%);
+    background-color: var(--dark);
+    text-align: center;
+    overflow: hidden;
+    transition: 1s height ease-in-out;
+}
+
+.content {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.images {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*
+#headers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+*/
