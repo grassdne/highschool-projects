@@ -65,8 +65,8 @@ const allProjects = [
         headerImage: "images/face_mug_throw.jpg",
         reflection: `
 <pre>
-O how I ache to dance to you!
-To spin, grow, shape earthly food.
+Why, I do long to dance with you,
+To spin, to grow, to shape earthly food.
 Why, we could throw the world anew,
 if not each time came vicisitude.
 </pre>
